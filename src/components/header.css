@@ -1,0 +1,45 @@
+.left__content {
+}
+
+.right__content {
+}
+
+.header_container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index:10;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(99, 99, 99);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header_content {
+  margin-left: 4rem;
+}
+
+.cart-icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-item-count {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.5rem; /* Ensures circle shape for single digit counts */
+  height: 1.5rem;
+  box-sizing: border-box;
+}
+
+

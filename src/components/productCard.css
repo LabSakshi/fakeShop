@@ -1,0 +1,33 @@
+.product_card_container {
+  margin-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 1rem;
+
+}
+
+.product_image {
+  width: 80%;
+  height: 15rem;
+}
+
+.cart-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 20px;
+    align-items: center;
+   
+}
+
+.product_title{
+    margin-top: 1rem;
+}
+
+.add_to_cart_button{
+  border: none;
+  background-color:lightslategrey;
+  padding: 1rem;
+  font-size: large;
+  cursor: pointer;
+  margin-top: 2rem;
+
+}
